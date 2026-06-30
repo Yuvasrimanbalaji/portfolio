@@ -747,12 +747,24 @@
         <div class="contact-row"><span>linkedin</span><a href="https://www.linkedin.com/in/balaji-y-7a95ba314" target="_blank" style="color:var(--teal);">linkedin.com/in/balaji-y</a></div>
       </div>
       <div class="contact-card">
-        <form onsubmit="event.preventDefault(); alert('Thanks — this is a demo form, connect it to your backend or a form service to receive messages.');">
-          <input type="text" placeholder="Your name" required>
-          <input type="email" placeholder="Your email" required>
-          <textarea placeholder="Message"></textarea>
-          <button type="submit" class="btn btn-primary magnetic" style="cursor:pointer; border:1px solid var(--teal); align-self:flex-start;">Send message</button>
-        </form>
+        <form action="https://formsubmit.co/balajiyuvasriman@gmail.com" method="POST">
+
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New Portfolio Contact">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="https://yuvasrimanbalaji.github.io/portfolio/">
+
+  <input type="text" name="name" placeholder="Your name" required>
+
+  <input type="email" name="email" placeholder="Your email" required>
+
+  <textarea name="message" placeholder="Message" required></textarea>
+
+  <button type="submit" class="btn btn-primary magnetic" style="cursor:pointer; border:1px solid var(--teal); align-self:flex-start;">
+    Send message
+  </button>
+
+</form>
       </div>
     </div>
   </section>
